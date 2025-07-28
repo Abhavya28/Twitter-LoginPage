@@ -13,4 +13,4 @@ A fully responsive **Twitter clone UI** built using **React** and **Vite**. This
 
 ## 📸 Screenshots
 
-![Desktop](./assets/screenshot.png)
+![Desktop View](./src/assets/screenshot.png)
