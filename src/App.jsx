@@ -27,9 +27,6 @@ function App() {
       <input type='text' className='username' placeholder='Email or username'></input>
       <button className='submit-btn'>Submit</button>
       <p className='forget-pass'><a href=''>Forget Password</a></p>
-
-      
-
     </div>
     </>
   )
