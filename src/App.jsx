@@ -7,7 +7,7 @@ function App() {
   return (
     <>
     <div className="container">
-      <div className="logo"><i class="ri-twitter-fill"></i></div> 
+      <div className="logo"><i class="ri-twitter-x-line"></i></div> 
       <h5>Sign In to Twitter</h5>
       <div className="btns">
         <button>
@@ -19,6 +19,15 @@ function App() {
           <p>Sign in with Apple</p>
         </button>
       </div>
+      <div className="divider">
+        <hr />
+        <span>Or</span>
+        <hr />
+      </div>
+      <input type='text' className='username' placeholder='Email or username'></input>
+      <button className='submit-btn'>Submit</button>
+      <p className='forget-pass'><a href=''>Forget Password</a></p>
+
       
 
     </div>

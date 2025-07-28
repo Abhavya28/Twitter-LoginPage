@@ -1,29 +1,31 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 .container{
   background-color: white;
   border-radius: 4px;
   height: auto;
-  width: 400px;
-  padding: 10px;
+  width: 250px;
+  padding: 20px 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
 }
 .container .logo{
-  color: #584ffc;
+  color: black;
 }
 .container h5{
   color: #000;
   font-size: 1rem;
+  margin: 10px;
 }
 .container .btns{
   display: flex;
@@ -32,18 +34,73 @@
   flex-direction: column;
   gap: 8px;
 }
-.container button {
+.container .btns button {
   border-radius: 10px;
   border: 1px solid black;
   background-color: white;
-  height: 10px;
+  height: 35px;
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   color: black;
-  font-size: 1rem;
+  font-size: 15px;
+  gap: 8px;
 }
-.container button img {
+.container .btns button:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+.container .btns button img {
   width: 15px;
   height: 15px;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  flex-direction: row; 
+  gap: 8px;
+  width: 100%;
+  margin: 8px;
+}
+
+.divider hr {
+  flex: 1;
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.divider span {
+  padding: 0 10px;
+  color: #888;
+  font-size: 14px;
+}
+
+.username{
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: white;
+  color: #ccc;
+  height: 20px;
+  text-align: center;
+}
+
+.container .submit-btn{
+  border-radius: 10px;
+  background-color: black;
+  height: 25px;
+  width: 100%;
+  color: white;
+  font-size: 0.8rem;
+  margin: 10px 0;
+}
+.forget-pass{
+  color: blue;
+  font-size: 10px;
+  text-align: center;
+  text-decoration: underline;
+  margin: 0px;
 }
