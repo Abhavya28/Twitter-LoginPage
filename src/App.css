@@ -96,6 +96,10 @@ body {
   color: white;
   font-size: 0.8rem;
   margin: 10px 0;
+  border: none;
+}
+.container .submit-btn:hover {
+  cursor: pointer;
 }
 .forget-pass{
   color: blue;
